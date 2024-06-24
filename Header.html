@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodies Place</title>
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <!-- <style>
+      h1{
+        color:red;
+      }
+    </style> -->
+  </head>
+  <body>
+    <header class = "navBar">
+      <img src="images/download.png" alt="Logo" />
+      <ul>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#AboutUS">About us</a>
+        </li>
+        <li>
+          <a href="#Menu">Menu</a>
+        </li>
+        <li>
+          <a href="#Contact">Contact us</a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <!-- <table>
+        <tr>
+          <th>Home</th>
+          <th>Menu</th>
+          <th>About us</th>
+          <th>Contact Us</th>
+        </tr>
+      </table> -->
+      <section class = "home" id ="home">
+        <h1 class="firstHeading">Welcome to our page</h1>
+        <form action = "#home" method="post" class ="websiteForm">
+          <label for="userName">User Name</label>
+          <input type ="text" name = "userName">
+          <br>
+          <label for="userEmail">User Email</label>
+          <input type ="email" name = "userEmail">
+          <br>
+          <label for="userPassword">User Password</label>
+          <input type ="password" name = "userPassword">
+          <br>
+          <label for="foodOption">Please select your fav food</label>
+          <select id ="foodOption" name ="foodOption">
+            <option value = "Select">Default</option>
+            <option value = "Biryani">Biryani</option>
+            <option value = "Paneer">Paneer</option>
+            <option value = "Chicken">Chicken tikka masala</option>
+            <option value = "IceCream">Ice cream</option>
+          </select>
+          <br>
+          <label for="imageOfFood">Please upload your fav food</label>
+          <input type ="file" name = "imageOfFood">
+          <br>
+
+          <label for="phoneNum">Number of food ordered</label>
+          <input type ="number" name = "phoneNum">
+          <br>
+
+          <label for="dateOfDel">Pick the date</label>
+          <input type = "date" name = "dateOfDel">
+          <br>
+
+          <button class = "submitButton">Submit</button>
+
+
+        </form>
+      </section>
+
+      <section class = "AboutUS" id ="AboutUS">
+        <h1>About Foodies Place...</h1>
+        <p>
+          Hi welcome to our page we have a lot of food options, Please do order your fav food!
+        </p>
+      </section>
+
+      <section class = "Menu" id ="Menu">
+        <h1>Menu</h1>
+        <ul>
+          <li>Briyanis</li>
+          <li>Paneer pepper fry</li>
+          <li>Roti curry</li>
+          <li>Ghee roast</li>
+        </ul>
+      </section>
+
+      <section class = "Contact" id ="Contact">
+        <h1>Contact</h1>
+        <p><b><u>
+          #145 address
+        </u></b><br>
+        99181726262
+      </p>
+      </section>
+    </main>
+  </body>
+</html>
